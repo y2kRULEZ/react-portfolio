@@ -1,37 +1,24 @@
 import React from 'react';
 
 export default function Work() {
-  return (
-    <div>
-      <h1>Work</h1>
-      <figure >
-                    <a href="https://emmcewen.github.io/FlicksMovieGenerator/" target="_blank">
-                        <img src="./images/flickspic.png" alt="link to movie application"></img>
-                    </a>
+    return (
+        <div>
+            <h1>Work</h1>
 
-                </figure>
-                <figure>
-                    <a href="https://y2krulez.github.io/workday-scheduler/" target="_blank" rel="noopener noreferrer">
-                        <img src="./images/workdaypic.png"  alt="link to workday scheduler application"></img>
-
-                    </a>
-
-
-                </figure>
-                <figure>
-                    <p>Coming Soon</p>
+            <a href="https://emmcewen.github.io/FlicksMovieGenerator/" target="_blank">
+                Flicks Movie Generator
+            </a>
 
 
 
-                </figure>
-                <figure>
-                    <p>Coming Soon</p>
+            <a href="https://y2krulez.github.io/workday-scheduler/" target="_blank" rel="noopener noreferrer">
+               workday scheduler
 
-                </figure>
-                <figure>
-                    <p>Coming Soon</p>
+            </a>
 
-                </figure>
-    </div>
-  );
+
+
+
+        </div>
+    );
 }
